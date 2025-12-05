@@ -15,8 +15,9 @@ public class Git_2025367 {
         System.out.println("What is your student ID?");
         String yourStudentID = myKB.nextLine();
 
-        System.out.println("Good'' + myName ''Your student ID is: " + yourStudentID);
+        System.out.println("Good " + myName + ". Your student ID is: " + yourStudentID);
+
+        myKB.close();
     }
 }
-        
         
